@@ -16,8 +16,8 @@ Eau Claire's Salon is a C#/CSHTML Website that allows to create new stylists and
 3. Copy and paste the following code into "Query" and "Run":
 ---
 ### **Copy The Following Text**
-CREATE DATABASE `ichael_watts` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE ichael_watts;
+CREATE DATABASE `michael_watts` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE michael_watts;
 CREATE TABLE `clients` (
   `ClientId` int NOT NULL AUTO_INCREMENT,
   `ClientName` varchar(255) DEFAULT NULL,
