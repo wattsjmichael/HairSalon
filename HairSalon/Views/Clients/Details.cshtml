@@ -8,6 +8,7 @@
 <h2>@Html.DisplayFor(model=>model.ClientName)</h2>
 <h4>Stylist : @Html.DisplayFor(model=>model.Stylist.Name)</h4>
 
-
+<p>@Html.ActionLink("Edit Client", "Edit", null, new { id = Model.ClientId }, new { @class = "btn btn-success btn-sm" })</p>
 <p>@Html.ActionLink("Delete Client", "Delete", null, new { id = Model.ClientId }, new { @class = "btn btn-success btn-sm" })</p>
 <p>@Html.ActionLink("Back To Client List", "Index", null, null, new { @class = "btn btn-success btn-sm" })</p>
+
