@@ -1,0 +1,37 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(214, 214, 214);
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 600px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/7c/88/0f/7c880f35e7ea459368cefb86c5140372.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.whiteText {
+  color: white;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  font-size: 90px;
+}
+
+.col-md-6 {
+  text-align: center;
+  padding-top: 40px;
+}
