@@ -72,7 +72,14 @@ public class StylistsController : Controller
     _db.SaveChanges();
     return RedirectToAction("Index");
   }
-  
+  [HttpPost]
+  public ActionResult Index(string name)
+  {
+    List<Stylist> model = _db.Stylists
+    .Where(p => p.Name.Contains(name)).ToList();
+    List<Stylist> SortedList = model.OrderBy(h => h.Name).ToList();
+    return View("Index", SortedList);
+  }
 
 }
 }

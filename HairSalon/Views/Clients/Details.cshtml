@@ -1,0 +1,10 @@
+@{
+  Layout = "_Layout";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+@using HairSalon.Models;
+@model HairSalon.Models.Client
+
+<h2>@Html.DisplayFor(model=>model.ClientName)</h2>
+<h4>Stylist : @Html.DisplayFor(model=>model.Stylist.Name)</h4>
+<h4>Speciality: @Html.DisplayFor(model=>model.Stylist.Speciality)</h4>
