@@ -72,6 +72,7 @@ public class StylistsController : Controller
     _db.SaveChanges();
     return RedirectToAction("Index");
   }
+  
 
 }
 }
