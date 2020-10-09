@@ -49,7 +49,7 @@ namespace HairSalon.Controllers
       return RedirectToAction("Index");
     }
 
-    public ActionResult Delet(int id)
+    public ActionResult Delete(int id)
     {
       var thisClient = _db.Clients
       .FirstOrDefault(clients => clients.ClientId == id);
